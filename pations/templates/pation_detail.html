@@ -17,8 +17,8 @@
         <li><b>Discript</b>  {{ object.discrict }}</li>
         <li><b>Diagnos</b>  {{ object.diagnos }}</li>
      </div>
-    <p><a href="{% url 'post_edit' post.pk %}">+ Update this pation</a></p>
-    <p><a href="{% url 'post_delete' post.pk %}">+ Delete this pation</a></p>
+    <p><a href="{% url 'edit_patient' post.pk %}">+ Update this pation</a></p>
+    <p><a href="{% url 'delete_patient' post.pk %}">+ Delete this pation</a></p>
 
 {% endblock content %}
 
